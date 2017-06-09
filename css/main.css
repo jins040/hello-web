@@ -1,0 +1,8 @@
+.features .glyphicon { /*사이에 한 칸 띄우는 것 주의, 하위 여러 개 중 하나*/
+    font-size: 32px;
+}
+
+.footer_body {
+    color: #dff0d8;
+    background-color: #333;
+}

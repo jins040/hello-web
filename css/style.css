@@ -1,0 +1,20 @@
+body {
+    background-color: aliceblue;
+}
+
+h1 {                                        /*h1&body는 selector, (selector명).(class명)으로 줄 수도 있다.*/
+    color: crimson;
+    text-align: center;
+}
+
+.emp_external { /*h2태그*/
+    color: aquamarine;
+    padding: 10px;
+    border: solid aquamarine 1px;
+}
+
+#test {
+    padding: 30px;
+    margin: 15px;
+    border: dashed black 1px;
+}

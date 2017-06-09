@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--부트스트랩 홈페이지에서 dist파일 다운 받고 css폴더에서 bootstrap.css파일을 css디렉토리에 복사-->
+    <!-- <link rel="stylesheet" href="css/bootstrap.css"> cf) 아래 방식으로 링크해도 된다.-->
+    <!--복사 후 hello-bs.html 파일 현위치에 드래그해서 링크 생성-->
+    <!--dist파일 font폴더 복사 후 hello-web에 paste-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--동적 이동(애니메이션 등)에는 javascript가 있어야 하는데, js파일은 jquery파일에 의존적이다.-->
+</head>
+<body>
+
+    <div class="container"> <!--bootstrap은 container 이용-->
+
+        <div class="jumbotron">
+            <h1>Hello</h1>
+            <h3>World</h3>
+        </div>
+
+        <div class="well">
+            <h1>Hello</h1>
+            <h3>World</h3>
+        </div>
+
+        <img src="w3Schools.jpg" class="img-thumbnail">
+        <img src="w3Schools.jpg" class="img-circle">
+        <img src="w3Schools.jpg" class="img-responsive">    <!--화면 크기에 대해 가변적-->
+    </div>
+
+</body>
+</html>

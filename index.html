@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>my first html file</title>
+    <style>
+        .emp {
+            color: #F0EA30;
+        }
+    </style>
+    <script>
+        function btnClicked() {
+            //alert("hi");          //alert창에 출력
+            var greetElement = document.getElementById("greet");   //h2에 ID 세팅(greet), 자바스크립트에서 변수는 var 표시
+            greetElement.innerHTML = "Ni Hao";
+        }
+    </script>
+    <link rel="stylesheet" href="css/style.css">                    <!--External 방식에 필요한 링크(실제 제일 많이 씀)-->
+</head>
+<body>
+
+    <!--주석-->
+    <h1>Hello world</h1>
+    <h2 id="greet">안녕하세요</h2>
+    <h3>Thank you..</h3>
+    <button onclick="btnClicked()">중국어로 번역</button>
+
+    <h1 id="test">this is heading</h1>                                      <!--id는 .css에서 #, class는 .으로 시작-->
+    <h2 style="color: lavender; font-family: 'Times New Roman'">this is heading</h2>    <!--InLine 스타일-->
+    <h3>this is heading</h3>
+    <hr>
+    <h4 class="emp">this is heading</h4>                                    <!--Internal 스타일-->
+    <h5>this is heading</h5>
+    <h6 class="emp_external">this is heading</h6>                           <!--External 스타일-->
+    <h7>this is heading</h7>
+
+    <p title="tooltip">This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+
+    <a href="http://www.naver.com">네이버로</a>
+    <img src="w3Schools.jpg"
+         alt="W3Schools.com"
+         width="104"
+         height="142">
+
+    <h2>나의 취미</h2>
+    <ul>
+        <li>바이올린</li>
+        <li>수영</li>
+        <li>축구</li>
+        <li>베이스기타</li>
+    </ul>
+    <!--에밋(emmet): ul>li*4하면 li 4개가 생성된다. (emmet.io 사이트 참고)-->
+
+    <form>                                                  <!--form action-"(end point 이름)", 서버 end point 로 요청-->
+        <input type="text" value="kim">
+        <input type="radio" name="lastname" value="1">
+        <input type="radio" name="lastname" value="2">      <!--name을 똑같이 만들어야 grouping,  다르게 하면 각각 생성-->
+        <input type="radio" name="lastname" value="3">      <!--value 값을 설정하면 value 값이 서버로 전달-->
+    </form>
+
+    <br><br><br><br><br><br>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
